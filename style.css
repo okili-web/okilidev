@@ -1,0 +1,504 @@
+body{
+   background-color: rgb(190, 185, 177);
+}
+.fond{
+  border:solid 2px white;
+  width:960px;
+  height:1200px;
+  margin:-8px auto;
+  background-color:white;
+}
+.image{
+    border:solid 1px black;
+    border-radius:65px;
+    position:absolute;
+    width:160px;
+    height:160px;
+    margin-left:67px;
+    margin-top:45px;
+}
+.nom{
+    color: black;
+    margin-top: 220px;
+    position:absolute;
+    font-style:normal;
+    font-weight:bold;
+    font-size:26px;
+    margin-left:65px;
+}
+.coin_gauche{
+    border:solid 1px blanchedalmond;
+    margin-right: 500px;
+    width:300px;
+    height:1200px;
+    background-color: blanchedalmond;
+}
+.image1{
+    color: black;
+    margin-top: 285px;
+    position:absolute;
+    border:solid 1px black;
+    width:43px;
+    height:42px;
+    margin-left:27px;
+    border-radius: 23px;
+}
+.propos{
+    color: black;
+    margin-top: 290px;
+    position:absolute;
+    border:solid 1px blanchedalmond;
+    font-style:normal;
+    font-weight:bold;
+    font-size:20px;
+    text-align:left;
+    margin-left: 80px;
+}
+.profil{
+    color: black;
+    margin-top: 350px;
+    position:absolute;
+    border:solid 1px blanchedalmond;
+    font-style:normal;
+    font-weight:normal;
+    font-size:16px;
+    width:250px;
+    height:190px;
+    text-align:left;
+    margin-left: 20px;
+    
+}
+.image2{
+    color: black;
+    margin-top:605px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:bold;
+    font-size:20px;
+    width:43px;
+    height:42px;
+    text-align:left;
+    margin-left:27px;
+    border-radius: 24px;
+}
+.titre_contact{
+    color: black;
+    margin-top: 613px;
+    position:absolute;
+    font-style:normal;
+    font-weight:bold;
+    font-size:20px;
+    text-align:left;
+    margin-left: 80px;
+}
+.contact{
+    color: black;
+    margin-top: 646px;
+    position:absolute;
+    font-style:normal;
+    font-weight:normal;
+    font-size:17px;
+    width:220px;
+    height:150px;
+    text-align:left;
+    margin-left: 50px;
+}
+.list_contact li{
+ padding-top: 13px;
+ list-style:none;
+ margin-left: -25px;
+ font-size:16px;
+}
+.emoji1{
+    margin-top:665px;
+    position:absolute;
+    width:28px;
+    height:28px;
+    text-align:left;
+    margin-left:32px;
+}
+.emoji2{
+    margin-top:695px;
+    position:absolute;
+    width:43px;
+    height:57px;
+    text-align:left;
+    margin-left:23px;
+}
+.emoji3{
+    margin-top:755px;
+    position:absolute;
+    width:28px;
+    height:28px;
+    text-align:left;
+    margin-left:32px;
+}
+.image3{
+    color: black;
+    margin-top:840px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:bold;
+    font-size:20px;
+    width:43px;
+    height:42px;
+    text-align:left;
+    margin-left:27px;
+    border-radius: 23px;
+}
+.titre_competence{
+    color: black;
+    margin-top: 848px;
+    position:absolute;
+    border:solid 1px blanchedalmond;
+    font-style:normal;
+    font-weight:bold;
+    font-size:20px;
+    width:210px;
+    height:34px;
+    text-align:left;
+    margin-left: 80px;
+}
+.competence{
+    color: black;
+    margin-top: 867px;
+    position:absolute;
+    font-style:normal;
+    font-weight:normal;
+    width:220px;
+    height:295px;
+    margin-left: 17px;
+}
+.list_competence li{
+    padding-top: 20px;
+    list-style:none;
+    margin-left: -25px;
+    font-size:17px;
+
+}
+.trait1{
+    position:absolute;
+    border:solid 1px black;
+    width: 65px;
+    height:10px;
+    margin-top: 910px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait1{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width: 55px;
+    height:10px;
+    margin-top: 910px;
+    margin-left: 200px;
+}
+.trait2{
+    position:absolute;
+    border:solid 1px black;
+    width: 65px;
+    height:10px;
+    margin-top: 970px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait2{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width: 60px;
+    height:10px;
+    margin-top: 970px;
+    margin-left: 200px;
+}
+.trait3{
+    position:absolute;
+    border:solid 1px black;
+    width: 65px;
+    height:10px;
+    margin-top: 1021px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait3{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width: 50px;
+    height:10px;
+    margin-top: 1021px;
+    margin-left: 200px;
+}
+.trait4{
+    position:absolute;
+    border:solid 1px black;
+    width: 65px;
+    height:10px;
+    margin-top: 1067px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait4{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width: 63px;
+    height:10px;
+    margin-top: 1067px;
+    margin-left: 200px;
+}
+.trait5{
+    position:absolute;
+    border:solid 1px black;
+    width: 65px;
+    height:10px;
+    margin-top: 1107px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait5{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width: 40px;
+    height:10px;
+    margin-top: 1107px;
+    margin-left: 200px;
+}
+.coin_droit{
+    position:absolute;
+    border:solid 1px rosybrown;
+    margin-left: 442px;
+    width:657px;
+    height:1200px;
+    background-color: rosybrown;
+    margin-top: -1195px;
+
+}
+.titre_experience{
+    background-color: blanchedalmond;
+    color: black;
+    margin-top: 65px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:bold;
+    font-size:25px;
+    width:300px;
+    height:34px;
+    text-align:left;
+    margin-left:45px;
+}
+.experience{
+    color: black;
+    margin-top: 100px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:bold;
+    font-size:17px;
+    width:500px;
+    height:170px;
+    text-align:left;
+    margin-left: 45px;
+}
+.centre_experience{
+    color: black;
+    margin-top:30px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:normal;
+    font-size:17px;
+    width:500px;
+    height:140px;
+    text-align:left;
+    margin-left: -425px;
+}
+.experience2{
+    color: black;
+    margin-top: 310px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:bold;
+    font-size:17px;
+    width:500px;
+    height:190px;
+    text-align:left;
+    margin-left: 45px
+}
+.centre_experience2{
+    color: black;
+    margin-top:30px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:normal;
+    font-size:17px;
+    width:500px;
+    height:160px;
+    text-align:left;
+    margin-left: -393px;
+}
+.titre_education{
+    background-color: blanchedalmond;
+    color: black;
+    margin-top: 581px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:bold;
+    font-size:25px;
+    width:300px;
+    height:34px;
+    text-align:left;
+    margin-left: 45px;
+}
+.list_education li{
+    padding-top: 20px;
+    list-style:none;
+    margin-left:-25px;
+    font-size:17px;
+}
+.education{
+    color: black;
+    margin-top:616px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:normal;
+    font-size:20px;
+    width:500px;
+    height:170px;
+    text-align:left;
+    margin-left: 45px;
+}
+.emoji4{
+    margin-top:991px;
+    position:absolute;
+    border:solid 1px black;
+    width:28px;
+    height:20px;
+    text-align:left;
+    margin-left:55px;
+}
+.emoji5{
+    margin-top:1031px;
+    position:absolute;
+    border:solid 1px black;
+    width:28px;
+    height:20px;
+    text-align:left;
+    margin-left:55px;
+}
+.emoji6{
+    margin-top:1070px;
+    position:absolute;
+    border:solid 1px black;
+    width:28px;
+    height:20px;
+    text-align:left;
+    margin-left:55px;
+}
+.langues{
+    background-color: blanchedalmond;
+    color: black;
+    margin-top: 928px;
+    position:absolute;
+    border:solid 1px black;
+    font-style:normal;
+    font-weight:bold;
+    font-size:25px;
+    width:300px;
+    height:34px;
+    text-align:left;
+    margin-left: 45px;
+}
+.bord{
+    margin-top:08px;
+    position:absolute;
+    border:solid 1px black;
+    width:500px;
+    height:170px;
+    margin-left: -30px;
+}
+.trait6{
+    position:absolute;
+    border:solid 1px black;
+    width: 200px;
+    height:10px;
+    margin-top: 1000px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait6{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width:190px;
+    height:10px;
+    margin-top: 1000px;
+    margin-left: 200px;
+}
+.trait7{
+    position:absolute;
+    border:solid 1px black;
+    width: 200px;
+    height:10px;
+    margin-top: 1038px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait7{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width:175px;
+    height:10px;
+    margin-top: 1038px;
+    margin-left: 200px;
+}
+.trait8{
+    position:absolute;
+    border:solid 1px black;
+    width: 200px;
+    height:10px;
+    margin-top: 1076px;
+    margin-left: 200px;
+    background-color: white;
+}
+.in_trait8{
+    background-color: black;
+    position:absolute;
+    border:solid 1px black;
+    width:135px;
+    height:10px;
+    margin-top: 1076px;
+    margin-left: 200px;
+}
+.contenu_langues{
+    color: black;
+    margin-top:955px;
+    position:absolute;
+    font-style:normal;
+    font-weight:normal;
+    font-size:20px;
+    width:200px;
+    height:170px;
+    text-align:left;
+    margin-left: 75px;
+}
+.list_langues li{
+     padding-top: 20px;
+    list-style:none;
+    margin-left:-25px;
+    font-size:17px;
+
+}
+
+  
+    
